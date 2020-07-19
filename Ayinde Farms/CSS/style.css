@@ -1,0 +1,238 @@
+/*General*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: cornsilk;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.button_1 {
+  height: 40px;
+  background-color: coral;
+  border: 0;
+  padding: 0 20px;
+  color: white;
+  font-size: 18px;
+}
+
+.button_1:hover {
+  cursor: pointer;
+}
+
+/*Header*/
+header {
+  background-color: coral;
+  color: cornsilk;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: grey 3px solid;
+}
+
+header a {
+  color: cornsilk;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li {
+  display: inline;
+  padding: 0px 20px;
+}
+
+header #brand {
+  float: left;
+}
+
+header #brand h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin: 10px;
+}
+
+header .highlight {
+  color: grey;
+}
+header .current a {
+  color: grey;
+  font-weight: bolder;
+}
+header a:hover {
+  color: #cccccc;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+/*showcase*/
+#showcase {
+  height: 400px;
+  width: auto;
+  background: url("../img/group-of-hen-inside-cage-2273602.jpg") no-repeat 0;
+  background-attachment: scroll;
+  text-align: center;
+  color: white;
+  position: relative;
+  margin: auto;
+}
+#showcase h1 {
+  padding: 60px;
+  font-size: 45px;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+#showcase p {
+  font-size: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+#showcase .container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+/*email*/
+#email {
+  padding: 15px;
+  color: white;
+  background: grey;
+}
+
+#email h1 {
+  float: left;
+}
+
+#email form {
+  float: right;
+}
+
+#email input {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+  border: solid blue 2px;
+}
+
+/*boxes*/
+]#boxes {
+  margin-top: 20px;
+}
+
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 15px;
+}
+#boxes .box img {
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+}
+
+/*what our customers have to say*/
+#customers {
+  background-color: grey;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#customers .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#customers .customer {
+  width: 30%;
+  text-align: center;
+  color: cornsilk;
+  border: 4px solid coral;
+  border-radius: 10px;
+}
+
+#customers img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding-top: 10px;
+}
+
+#customers h3,
+#customers img {
+  margin: 0;
+}
+
+#customers .title {
+  text-align: center;
+  font-size: 30px;
+  color: cornsilk;
+  margin: 0 0 10px 0;
+  padding: 0 0 10px 0;
+}
+
+footer {
+  background-color: coral;
+  color: cornsilk;
+  padding-top: 40px;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  height: 50px;
+}
+
+/*about page*/
+.dark {
+  padding: 50px;
+  background-color: grey;
+  color: cornsilk;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+aside#side-bar {
+  float: right;
+  width: 25%;
+  margin-top: 30px;
+}
+
+article#main-col {
+  float: left;
+  width: 50%;
+}
+
+/*services*/
+aside#side-bar .quote input,
+aside#side-bar .quote textarea {
+  width: 90%;
+  padding: 5px;
+}
+
+ul#services li {
+  list-style: none;
+  padding: 20px;
+  border: 1px solid cornsilk;
+  margin-bottom: 5px;
+  background-color: darkgray;
+}
